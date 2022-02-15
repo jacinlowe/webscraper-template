@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "LWaudio_revamped"
+version = "0.1.0"
+description = ""
+authors = ["DESKTOP-O1CTHQ0\\AL_2 <jacin.lowe@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
